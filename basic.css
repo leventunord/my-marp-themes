@@ -1,0 +1,79 @@
+/*!
+ * @theme basic
+ * @author leventunord@github
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+
+@import "default";
+
+.nunito-sans {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
+.noto-sans-mono {
+  font-family: "Noto Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+:root {
+  --aqua: #185CA6;
+}
+
+section {
+  font-family: "Nunito Sans", sans-serif;
+  width: 1920px;
+  height: 1080px;
+
+  padding-left: 128px;
+  padding-right: 128px;
+
+  font-size: 40px;
+}
+
+section.center {
+  text-align: center;
+}
+
+h1 {
+  color: var(--aqua);
+  font-size: 64px;
+  font-weight: bold;
+}
+
+h2 {
+  color: var(--aqua);
+  font-size: 64px;
+
+  display: block;
+  position: absolute;
+  top: 128px;
+  left: 128px;
+}
+
+h3 {
+  font-size: 48px;
+}
+
+ul {
+  padding-left: 32px;
+}
+
+ol {
+  padding-left: 48px;
+}
+
+code {
+  font-family: "Noto Sans Mono", monospace;
+}
